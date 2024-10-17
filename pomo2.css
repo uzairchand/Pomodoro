@@ -1,0 +1,62 @@
+#container{
+    border:1px solid #333;
+    border-radius :20px;
+    width:400px;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+    background-color : #333;
+  }
+  
+  #timer{ 
+    color: red; 
+    font-size:50px; 
+    margin:10px auto;
+    border : 5px solid red;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+  }
+  
+  #time{
+    margin-top:70px;
+    z-index : 1;
+    position:relative;
+  }
+  
+  #filler{
+    background-color : white;
+    height: 0px;
+    width: 200px;
+    position:absolute;
+    bottom:0;
+  }
+  
+#buttons button { 
+    border:none; 
+    color:white; 
+    cursor:pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 50px;
+    border-radius : 50px;
+  }
+  #work{
+    background-color: rgb(20, 172, 223);
+  }
+ #shortBreak{
+    background-color : #0c0;
+  }
+  
+#longBreak{
+    background-color : #080;
+  }
+  
+#stop{
+    background-color : #f00;
+  }
+  
